@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637A203421491ABE008243D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A203321491ABE008243D3 /* AppDelegate.m */; };
+		637A203721491ABE008243D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A203621491ABE008243D3 /* ViewController.m */; };
+		637A203A21491ABE008243D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A203821491ABE008243D3 /* Main.storyboard */; };
+		637A203C21491AC0008243D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637A203B21491AC0008243D3 /* Assets.xcassets */; };
+		637A203F21491AC0008243D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A203D21491AC0008243D3 /* LaunchScreen.storyboard */; };
+		637A204221491AC0008243D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A204121491AC0008243D3 /* main.m */; };
+		637A204C21491AC0008243D3 /* MVVMRACTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A204B21491AC0008243D3 /* MVVMRACTemplateTests.m */; };
+		637A205721491AC0008243D3 /* MVVMRACTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A205621491AC0008243D3 /* MVVMRACTemplateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637A204821491AC0008243D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A202721491ABD008243D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A202E21491ABE008243D3;
+			remoteInfo = MVVMRACTemplate;
+		};
+		637A205321491AC0008243D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A202721491ABD008243D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A202E21491ABE008243D3;
+			remoteInfo = MVVMRACTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637A202F21491ABE008243D3 /* MVVMRACTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMRACTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A203221491ABE008243D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637A203321491ABE008243D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637A203521491ABE008243D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		637A203621491ABE008243D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		637A203921491ABE008243D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637A203B21491AC0008243D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637A203E21491AC0008243D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637A204021491AC0008243D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A204121491AC0008243D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637A204721491AC0008243D3 /* MVVMRACTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMRACTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A204B21491AC0008243D3 /* MVVMRACTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMRACTemplateTests.m; sourceTree = "<group>"; };
+		637A204D21491AC0008243D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A205221491AC0008243D3 /* MVVMRACTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMRACTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A205621491AC0008243D3 /* MVVMRACTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMRACTemplateUITests.m; sourceTree = "<group>"; };
+		637A205821491AC0008243D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637A202C21491ABE008243D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A204421491AC0008243D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A204F21491AC0008243D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637A202621491ABD008243D3 = {
+			isa = PBXGroup;
+			children = (
+				637A203121491ABE008243D3 /* MVVMRACTemplate */,
+				637A204A21491AC0008243D3 /* MVVMRACTemplateTests */,
+				637A205521491AC0008243D3 /* MVVMRACTemplateUITests */,
+				637A203021491ABE008243D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637A203021491ABE008243D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637A202F21491ABE008243D3 /* MVVMRACTemplate.app */,
+				637A204721491AC0008243D3 /* MVVMRACTemplateTests.xctest */,
+				637A205221491AC0008243D3 /* MVVMRACTemplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637A203121491ABE008243D3 /* MVVMRACTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				637A203221491ABE008243D3 /* AppDelegate.h */,
+				637A203321491ABE008243D3 /* AppDelegate.m */,
+				637A203521491ABE008243D3 /* ViewController.h */,
+				637A203621491ABE008243D3 /* ViewController.m */,
+				637A203821491ABE008243D3 /* Main.storyboard */,
+				637A203B21491AC0008243D3 /* Assets.xcassets */,
+				637A203D21491AC0008243D3 /* LaunchScreen.storyboard */,
+				637A204021491AC0008243D3 /* Info.plist */,
+				637A204121491AC0008243D3 /* main.m */,
+			);
+			path = MVVMRACTemplate;
+			sourceTree = "<group>";
+		};
+		637A204A21491AC0008243D3 /* MVVMRACTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				637A204B21491AC0008243D3 /* MVVMRACTemplateTests.m */,
+				637A204D21491AC0008243D3 /* Info.plist */,
+			);
+			path = MVVMRACTemplateTests;
+			sourceTree = "<group>";
+		};
+		637A205521491AC0008243D3 /* MVVMRACTemplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637A205621491AC0008243D3 /* MVVMRACTemplateUITests.m */,
+				637A205821491AC0008243D3 /* Info.plist */,
+			);
+			path = MVVMRACTemplateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637A202E21491ABE008243D3 /* MVVMRACTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A205B21491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplate" */;
+			buildPhases = (
+				637A202B21491ABE008243D3 /* Sources */,
+				637A202C21491ABE008243D3 /* Frameworks */,
+				637A202D21491ABE008243D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMRACTemplate;
+			productName = MVVMRACTemplate;
+			productReference = 637A202F21491ABE008243D3 /* MVVMRACTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637A204621491AC0008243D3 /* MVVMRACTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A205E21491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplateTests" */;
+			buildPhases = (
+				637A204321491AC0008243D3 /* Sources */,
+				637A204421491AC0008243D3 /* Frameworks */,
+				637A204521491AC0008243D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A204921491AC0008243D3 /* PBXTargetDependency */,
+			);
+			name = MVVMRACTemplateTests;
+			productName = MVVMRACTemplateTests;
+			productReference = 637A204721491AC0008243D3 /* MVVMRACTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637A205121491AC0008243D3 /* MVVMRACTemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A206121491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplateUITests" */;
+			buildPhases = (
+				637A204E21491AC0008243D3 /* Sources */,
+				637A204F21491AC0008243D3 /* Frameworks */,
+				637A205021491AC0008243D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A205421491AC0008243D3 /* PBXTargetDependency */,
+			);
+			name = MVVMRACTemplateUITests;
+			productName = MVVMRACTemplateUITests;
+			productReference = 637A205221491AC0008243D3 /* MVVMRACTemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637A202721491ABD008243D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JarvisWu;
+				TargetAttributes = {
+					637A202E21491ABE008243D3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					637A204621491AC0008243D3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 637A202E21491ABE008243D3;
+					};
+					637A205121491AC0008243D3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 637A202E21491ABE008243D3;
+					};
+				};
+			};
+			buildConfigurationList = 637A202A21491ABD008243D3 /* Build configuration list for PBXProject "MVVMRACTemplate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637A202621491ABD008243D3;
+			productRefGroup = 637A203021491ABE008243D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637A202E21491ABE008243D3 /* MVVMRACTemplate */,
+				637A204621491AC0008243D3 /* MVVMRACTemplateTests */,
+				637A205121491AC0008243D3 /* MVVMRACTemplateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637A202D21491ABE008243D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A203F21491AC0008243D3 /* LaunchScreen.storyboard in Resources */,
+				637A203C21491AC0008243D3 /* Assets.xcassets in Resources */,
+				637A203A21491ABE008243D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A204521491AC0008243D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A205021491AC0008243D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637A202B21491ABE008243D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A203721491ABE008243D3 /* ViewController.m in Sources */,
+				637A204221491AC0008243D3 /* main.m in Sources */,
+				637A203421491ABE008243D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A204321491AC0008243D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A204C21491AC0008243D3 /* MVVMRACTemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A204E21491AC0008243D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A205721491AC0008243D3 /* MVVMRACTemplateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637A204921491AC0008243D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A202E21491ABE008243D3 /* MVVMRACTemplate */;
+			targetProxy = 637A204821491AC0008243D3 /* PBXContainerItemProxy */;
+		};
+		637A205421491AC0008243D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A202E21491ABE008243D3 /* MVVMRACTemplate */;
+			targetProxy = 637A205321491AC0008243D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637A203821491ABE008243D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A203921491ABE008243D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637A203D21491AC0008243D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A203E21491AC0008243D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637A205921491AC0008243D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		637A205A21491AC0008243D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637A205C21491AC0008243D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637A205D21491AC0008243D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		637A205F21491AC0008243D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMRACTemplate.app/MVVMRACTemplate";
+			};
+			name = Debug;
+		};
+		637A206021491AC0008243D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMRACTemplate.app/MVVMRACTemplate";
+			};
+			name = Release;
+		};
+		637A206221491AC0008243D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVMRACTemplate;
+			};
+			name = Debug;
+		};
+		637A206321491AC0008243D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q45W4GD72;
+				INFOPLIST_FILE = MVVMRACTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JarvisWu.MVVMRACTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MVVMRACTemplate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637A202A21491ABD008243D3 /* Build configuration list for PBXProject "MVVMRACTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A205921491AC0008243D3 /* Debug */,
+				637A205A21491AC0008243D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A205B21491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A205C21491AC0008243D3 /* Debug */,
+				637A205D21491AC0008243D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A205E21491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A205F21491AC0008243D3 /* Debug */,
+				637A206021491AC0008243D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A206121491AC0008243D3 /* Build configuration list for PBXNativeTarget "MVVMRACTemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A206221491AC0008243D3 /* Debug */,
+				637A206321491AC0008243D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637A202721491ABD008243D3 /* Project object */;
+}
