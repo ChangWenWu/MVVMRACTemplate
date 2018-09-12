@@ -1,0 +1,5 @@
+github "ReactiveCocoa/ReactiveObjC"
+github "AFNetworking/AFNetworking" ~> 3.0
+github "joeldev/JLRoutes"
+github "jdg/MBProgressHUD" ~> 1.1.0
+github "SnapKit/Masonry"
