@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  MVVMRACTemplate
+//
+//  Created by jarvis on 2018/9/13.
+//  Copyright © 2018年 JarvisWu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "MRCAppDelegate.h"
+
+#endif /* PrefixHeader_pch */
